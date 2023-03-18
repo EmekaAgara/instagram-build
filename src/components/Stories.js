@@ -58,14 +58,13 @@ const data = [
 ]
 
 const Stories = () => (
-        
-      <FlatList
-        data={data}
-        showsHorizontalScrollIndicator={false}
-        keyExtractor={({name}) => name}
-        horizontal
-        renderItem={({item}) => <Story imageUri={item.imageUri} name={item.name}/>} 
-      />
+  <FlatList
+    data={data}
+    showsHorizontalScrollIndicator={false}
+    keyExtractor={({name}) => name}
+    horizontal
+    renderItem={({item}) => <Story imageUri={item.imageUri} name={item.name}/>} 
+  />
 )
 
 const styles = StyleSheet.create({

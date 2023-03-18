@@ -22,21 +22,6 @@ export default function App() {
             }}
           />
 
-{/* 
-          <Stack.Screen
-            name='CreateTrustlineOp'
-            component={CreateTrustlineOp}
-            options={{
-            headerShown:true,
-            title: 'Create Trustline',
-            headerStyle: {
-              backgroundColor: '#fafafa'
-            },
-            headerTintColor: 'black',
-            }}
-          /> */}
-
-
         </Stack.Navigator>
       </SafeAreaProvider>
     </NavigationContainer>

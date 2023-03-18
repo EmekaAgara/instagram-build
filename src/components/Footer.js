@@ -3,11 +3,11 @@ import React, { Component } from 'react'
 
 
 const Footer = () => (
-        
-      <View style={styles.container}>
-        <Text style={styles.name}>Footer</Text>
-      </View>
-    )
+  <View style={styles.container}>
+    <Text style={styles.name}>Footer</Text>
+  </View>
+
+)
 
 const styles = StyleSheet.create({
 })
