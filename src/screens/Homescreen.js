@@ -2,13 +2,13 @@ import { SafeAreaView, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import ProfileImage from '../components/ProfileImage'
 import Stories from '../components/Stories'
+import Post from '../components/Post'
 
 const Homescreen = () => {
   return (
     <SafeAreaView>
-      <Text>Homescreen</Text>
       <Stories/>
-
+      <Post/>
     </SafeAreaView>
   )
 }

@@ -15,9 +15,9 @@ const ProfileImage = ({uri}) => (
 const styles = StyleSheet.create({
 
     container: {
-        height:86,
-        width:86,
-        margin:10,
+        height:80,
+        width:80,
+        margin:4,
         borderRadius:50,
         borderWidth:3,
         borderColor:"radial-gradient(circle at 10% 20%, rgb(134, 47, 199) 0%, rgb(235, 56, 137) 90%);",
@@ -25,8 +25,8 @@ const styles = StyleSheet.create({
 
 
     image: {
-        height:80,
-        width:80,
+        height:74,
+        width:74,
         borderRadius:50,
         borderWidth:2.5,
         borderColor:"#ffffff"
