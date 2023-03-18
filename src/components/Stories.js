@@ -59,6 +59,7 @@ const data = [
 
 const Stories = () => (
   <FlatList
+  style={styles.container}
     data={data}
     showsHorizontalScrollIndicator={false}
     keyExtractor={({name}) => name}
@@ -68,6 +69,10 @@ const Stories = () => (
 )
 
 const styles = StyleSheet.create({
+
+  container: {
+    // paddingBottom:20
+  },
 
 })
 
